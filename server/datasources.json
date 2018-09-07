@@ -1,6 +1,12 @@
 {
-  "db": {
-    "name": "db",
-    "connector": "memory"
+  "postgresDs": {
+    "host": "localhost",
+    "port": 5432,
+    "url": "",
+    "database": "learning-loopback",
+    "password": "password",
+    "name": "postgresDs",
+    "user": "postgres",
+    "connector": "postgresql"
   }
 }
