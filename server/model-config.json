@@ -14,29 +14,29 @@
     ]
   },
   "User": {
-    "dataSource": "postgresDs"
+    "dataSource": "ds"
   },
   "AccessToken": {
-    "dataSource": "postgresDs",
+    "dataSource": "ds",
     "public": false
   },
   "ACL": {
-    "dataSource": "postgresDs",
+    "dataSource": "ds",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "postgresDs",
+    "dataSource": "ds",
     "public": false,
     "options": {
       "strictObjectIDCoercion": true
     }
   },
   "Role": {
-    "dataSource": "postgresDs",
+    "dataSource": "ds",
     "public": false
   },
   "BlogPost": {
-    "dataSource": "postgresDs",
+    "dataSource": "ds",
     "public": true
   }
 }
